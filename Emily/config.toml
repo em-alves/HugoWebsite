@@ -14,7 +14,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "John Doe"
+  name = "Emily Alves"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -34,9 +34,9 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#494f5c"
+  themeColor = "#494F5C"
 
-  homeSubtitle = "A minimal and fast theme for Hugo."
+  homeSubtitle = "Hello, thank you for passing by!"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -56,25 +56,30 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/"
+    name = "email"
+    url = "emilyleite11@gmail.com"
 
   [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/emily-alves-b5b415189/"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/em-alves"
 
 [menu]
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts/"
+    name = "About"
+    url = "about/"
     weight = 10
 
-  [[menu.main]]
-    name = "About"
-    url = "about-hugo/"
-    weight = 20
+    [[menu.main]]
+      name = "Resume"
+      url = "resume/"
+      weight = 20
+
+      [[menu.main]]
+      name = "Projects"
+      url = "projects/"
+      weight = 30
